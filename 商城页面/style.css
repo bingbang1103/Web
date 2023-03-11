@@ -1,0 +1,72 @@
+body{
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+a{text-decoration: none;}
+img{max-width: 100%;}
+#top{
+    padding: 20px;
+    width: 100%;
+    background-color: #222;
+}
+.topList{
+    display: table;
+    width: 100%;
+}
+.topList li{
+    display: table-cell;
+}
+.topList li >a{
+    display: block;
+    text-align: center;
+    color: white;
+}
+#content{
+    width: 100%;
+    margin: 10px 0 20px 0;
+    overflow: hidden;
+
+}
+.left_side{
+    float: left;
+    width: 60%;
+    margin-left: 1.2%;
+
+}
+.top_pic{
+    padding: 10px 60px;
+    background-color: #eee;
+
+}
+#products div{
+    width: 30%;
+    display: inline-block;
+    padding: 0 10px;
+    
+}
+#right_side{
+    float: right;
+    width: 28%;
+    margin-right: 1.2%;
+
+}
+.list_group{
+    margin-bottom: 30px;
+}
+.list_title{
+    padding: 10px 15px;
+    font-weight: bold;
+    color: #fff;
+    background: #337ab7;
+    border-color: #337ab7;
+}
+.list_item{
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    border: 1px solid #ddd;
+}
